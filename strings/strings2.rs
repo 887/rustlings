@@ -2,7 +2,7 @@
 
 fn main() {
     let guess1 = "blue".to_string(); // Try not changing this line :)
-    let correct = guess_favorite_color(guess1);
+    let correct = guess_favorite_color(&guess1);
     if correct {
         println!("You guessed correctly!");
     } else {
